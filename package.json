@@ -1,0 +1,50 @@
+{
+  "name": "merge-concat",
+  "version": "1.0.0",
+  "description": "A module that merges the passed in objects recursively while concatenating internal arrays. The procedure is completely functional, so it does not mutate any argument.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint src/",
+    "test": "npm run lint && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techiedod/merge-concat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/techiedod/merge-concat/issues"
+  },
+  "homepage": "https://github.com/techiedod/merge-concat#readme",
+  "keywords": [
+    "merge",
+    "assign",
+    "object merge",
+    "deep assign",
+    "object deep merge"
+  ],
+  "author": {
+    "name": "Alexandru Dodon",
+    "email": "alexandru.dodon@collaboss.com",
+    "url": "https://collaboss.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^21.2.1",
+    "regenerator-runtime": "^0.11.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-commonjs": "^8.0.2"
+  }
+}
